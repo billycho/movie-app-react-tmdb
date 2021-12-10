@@ -7,8 +7,6 @@ const getMoviePopular = (page) => {
     process.env.REACT_APP_API_KEY +
     "&language=en-US&page=" +
     page;
-
-
   return axios.get(url);
 };
 
@@ -19,8 +17,6 @@ const getSeriesPopular = (page) => {
     process.env.REACT_APP_API_KEY +
     "&language=en-US&page=" +
     page;
-
-
   return axios.get(url);
 };
 
