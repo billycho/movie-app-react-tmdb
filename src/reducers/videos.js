@@ -28,13 +28,7 @@ const initialState = {
 
 function videoReducer(state = initialState, action) {
   const { type, payload } = action;
-
-  if (type == GET_MOVIE_POPULAR) {
-    console.log(payload);
-    console.log(state.genreSelected);
-  }
-
-  console.log(type);
+  
   switch (type) {
     case GET_MOVIE_POPULAR:
     case GET_MOVIE_TOP:

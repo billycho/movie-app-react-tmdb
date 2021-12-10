@@ -40,7 +40,6 @@ const Home = () => {
   // }, []);
 
   useEffect(() => {
-    console.log("123");
 
     if (videos.listType == listTypeName.search) return;
     dispatch(setLoading());
@@ -122,12 +121,10 @@ const Home = () => {
   };
 
   const loadItemList = () => {
-    console.log(videos.genreSelected);
     if (videoType == videoTypeName.movie) {
       dispatch(getGenresMovie());
       if (listType == listTypeName.popular) {
         dispatch(getMoviePopular(videos.page));
-        console.log("popular");
       } else if (listType == listTypeName.top) {
         dispatch(getMovieTop(videos.page));
       } else if (listType == listTypeName.category) {

@@ -8,7 +8,6 @@ const getMoviePopular = (page) => {
     "&language=en-US&page=" +
     page;
 
-  console.log(url);
 
   return axios.get(url);
 };
@@ -21,7 +20,6 @@ const getSeriesPopular = (page) => {
     "&language=en-US&page=" +
     page;
 
-  console.log(url);
 
   return axios.get(url);
 };
@@ -89,7 +87,6 @@ const getMovieByGenre = (page, genre) => {
     "&page=" +
     page;
 
-  console.log(url);
 
   return axios.get(url);
 };
@@ -104,7 +101,6 @@ const getSeriesByGenre = (page, genre) => {
     "&page=" +
     page;
 
-  console.log(url);
 
   return axios.get(url);
 };
@@ -130,7 +126,6 @@ const searchVideos = (page, keyword, type) => {
       1;
   }
 
-  console.log(url);
 
   return axios.get(url);
 };
