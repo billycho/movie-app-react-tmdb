@@ -8,10 +8,10 @@ Features:
 + Search & Categories
 
 How to run:
-npm install
-Setup your API key in .env with these values
-REACT_APP_API_URL = 'https://api.themoviedb.org/3/'
-REACT_APP_API_KEY = 'your_tmdb_api_key'
+npm install <br/>
+Setup your API key in .env with these values  <br/>
+REACT_APP_API_URL = 'https://api.themoviedb.org/3/' <br/>
+REACT_APP_API_KEY = 'your_tmdb_api_key' <br/>
 
-Screenshots:
+Screenshots: <br/>
 ![ScreenShot](https://www.billychristi.com/assets/imgs/bestwatch2.PNG)
