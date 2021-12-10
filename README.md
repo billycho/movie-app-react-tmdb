@@ -13,5 +13,5 @@ Setup your API key in .env with these values  <br/>
 REACT_APP_API_URL = 'https://api.themoviedb.org/3/' <br/>
 REACT_APP_API_KEY = 'your_tmdb_api_key' <br/>
 
-Screenshots: <br/>
+Screenshots: <br/><br/>
 ![ScreenShot](https://www.billychristi.com/assets/imgs/bestwatch2.PNG)
