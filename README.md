@@ -1,3 +1,12 @@
+Live: http://bestwatch.billychristi.com/
+
+This is a React movie app integrated with TMDB api (https://developers.themoviedb.org/3)
+
+Features:
++ Top Movies/Series List
++ Popular Movies/Series List
++ Search & Categories
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
